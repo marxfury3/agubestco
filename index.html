@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="images/favicon.png?v=1">
+<title>Agubestco | Premium Phones, Laptops & Accessories</title>
+<meta name="description"
+content="Shop premium phones, laptops, headsets and accessories at Agubestco. Fast delivery and secure payment.">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<!-- TOP BAR -->
+
+<div class="topbar">
+
+<div>
+<i class="fa-solid fa-envelope"></i>
+agubestco@gmail.com
+</div>
+
+<div>
+<i class="fa-brands fa-whatsapp"></i>
+07034367556
+</div>
+
+<div>
+<i class="fa-solid fa-truck-fast"></i>
+Fast Delivery Across Nigeria
+</div>
+
+</div>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="logo">
+
+<div class="logo-icon">A</div>
+
+<div>
+<h2>AGUBESTCO</h2>
+<span>Your Trusted Gadget Store</span>
+</div>
+
+</div>
+
+<nav>
+
+<ul id="navLinks">
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#categories">Categories</a></li>
+
+<li><a href="#products">Products</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<div class="header-actions">
+
+<button id="cartBtn">
+<i class="fa-solid fa-cart-shopping"></i>
+<span id="cartCount">0</span>
+</button>
+
+<button class="menu-btn" id="menuBtn">
+<i class="fa-solid fa-bars"></i>
+</button>
+
+</div>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<div class="hero-badge">
+WELCOME TO AGUBESTCO
+</div>
+
+<h1>
+Premium Phones,<br>
+Laptops & Accessories
+</h1>
+
+<h2>At Affordable Prices</h2>
+
+<p>
+Shop the latest smartphones, laptops, headsets,
+smartwatches and accessories with fast delivery
+and secure payment.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#products" class="btn-primary">
+Shop Now
+</a>
+
+<a
+href="https://wa.me/2347034367556"
+target="_blank"
+class="btn-secondary">
+
+Order On WhatsApp
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CATEGORIES -->
+
+<section id="categories" class="categories">
+
+<h2 class="section-title">
+Shop By Category
+</h2>
+
+<div class="category-grid">
+
+<div class="category-card">
+<i class="fa-solid fa-mobile-screen"></i>
+<h3>Smartphones</h3>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-laptop"></i>
+<h3>Laptops</h3>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-headphones"></i>
+<h3>Headsets</h3>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-clock"></i>
+<h3>Smart Watches</h3>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-bolt"></i>
+<h3>Chargers</h3>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-battery-full"></i>
+<h3>Power Banks</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- SEARCH -->
+
+<section class="search-section">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search products...">
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section id="products" class="products">
+
+<h2 class="section-title">
+Featured Products
+</h2>
+
+<div class="filter-buttons">
+
+<button class="filter active" data-filter="all">
+All
+</button>
+
+<button class="filter" data-filter="phone">
+Phones
+</button>
+
+<button class="filter" data-filter="laptop">
+Laptops
+</button>
+
+<button class="filter" data-filter="headset">
+Headsets
+</button>
+
+<button class="filter" data-filter="accessory">
+Accessories
+</button>
+
+</div>
+
+<div id="productContainer" class="product-grid">
+
+
+<!-- ================= SMARTPHONES (7) ================= -->
+
+<div class="product-card phone">
+<img src="images/iPhone17Pro.jpg" alt="iPhone 17 Pro">
+<h3>iPhone 17 Pro</h3>
+<p>₦2,450,000</p>
+<button onclick="addToCart('iPhone 17 Pro',2450000)">Add To Cart</button>
+</div>
+
+<div class="product-card phone">
+<img src="images/OIP.webp" alt="iPhone 16 Pro">
+<h3>iPhone 16 Pro</h3>
+<p>₦1,450,000</p>
+<button onclick="addToCart('iPhone 16 Pro',1450000)">Add To Cart</button>
+</div>
+
+<div class="product-card phone">
+<img src="images/iPhone 15 Pro.jpg" alt="iPhone 15 Pro">
+<h3>iPhone 15 Pro</h3>
+<p>₦900,450</p>
+<button onclick="addToCart('iPhone 15 Pro',900450)">Add To Cart</button>
+</div>
+
+<div class="product-card phone">
+<img src="images/iphone14.png" alt="iPhone 14 Pro">
+<h3>iPhone 14 Pro</h3>
+<p>₦825,000</p>
+<button onclick="addToCart('iPhone 14 Pro',825000)">Add To Cart</button>
+</div>
+
+<div class="product-card phone">
+<img src="images/iphone13.webp" alt="iPhone 13 Pro">
+<h3>iPhone 13 Pro</h3>
+<p>₦780,000</p>
+<button onclick="addToCart('iPhone 13 Pro',780000)">Add To Cart</button>
+</div>
+
+<div class="product-card phone">
+<img src="images/samsung-s25.webp" alt="Samsung S25 Ultra">
+<h3>Samsung S25 Ultra</h3>
+<p>₦1,380,000</p>
+<button onclick="addToCart('Samsung S25 Ultra',1380000)">Add To Cart</button>
+</div>
+
+<div class="product-card phone">
+<img src="images/samsung-a55.webp" alt="Samsung A55">
+<h3>Samsung A55</h3>
+<p>₦420,000</p>
+<button onclick="addToCart('Samsung A55',420000)">Add To Cart</button>
+</div>
+
+<div class="product-card phone">
+<img src="images/infinix-note40.webp" alt="Infinix Note 40">
+<h3>Infinix Note 40</h3>
+<p>₦310,000</p>
+<button onclick="addToCart('Infinix Note 40',310000)">Add To Cart</button>
+</div>
+
+<div class="product-card phone">
+<img src="images/tecno-camon30.webp" alt="Tecno Camon 30">
+<h3>Tecno Camon 30</h3>
+<p>₦295,000</p>
+<button onclick="addToCart('Tecno Camon 30',295000)">Add To Cart</button>
+</div>
+
+<!-- ================= LAPTOPS (7) ================= -->
+
+<div class="product-card laptop">
+<img src="images/macbook-m3.webp" alt="MacBook Air M3">
+<h3>MacBook Air M3</h3>
+<p>₦1,950,000</p>
+<button onclick="addToCart('MacBook Air M3',1950000)">Add To Cart</button>
+</div>
+
+<div class="product-card laptop">
+<img src="images/hp-elitebook.webp" alt="HP EliteBook">
+<h3>HP EliteBook</h3>
+<p>₦820,000</p>
+<button onclick="addToCart('HP EliteBook',820000)">Add To Cart</button>
+</div>
+
+<div class="product-card laptop">
+<img src="images/dell-latitude.webp" alt="Dell Latitude 7420">
+<h3>Dell Latitude 7420</h3>
+<p>₦760,000</p>
+<button onclick="addToCart('Dell Latitude 7420',760000)">Add To Cart</button>
+</div>
+
+<div class="product-card laptop">
+<img src="images/lenovo-thinkpad.webp" alt="Lenovo ThinkPad X1">
+<h3>Lenovo ThinkPad X1</h3>
+<p>₦690,000</p>
+<button onclick="addToCart('Lenovo ThinkPad X1',690000)">Add To Cart</button>
+</div>
+
+<div class="product-card laptop">
+<img src="images/asus-vivobook.webp" alt="ASUS VivoBook">
+<h3>ASUS VivoBook</h3>
+<p>₦540,000</p>
+<button onclick="addToCart('ASUS VivoBook',540000)">Add To Cart</button>
+</div>
+
+<div class="product-card laptop">
+<img src="images/acer-aspire5.webp" alt="Acer Aspire 5">
+<h3>Acer Aspire 5</h3>
+<p>₦510,000</p>
+<button onclick="addToCart('Acer Aspire 5',510000)">Add To Cart</button>
+</div>
+
+<div class="product-card laptop">
+<img src="images/hp-pavilion.webp" alt="HP Pavilion">
+<h3>HP Pavilion</h3>
+<p>₦610,000</p>
+<button onclick="addToCart('HP Pavilion',610000)">Add To Cart</button>
+</div>
+
+<!-- ================= HEADSETS (5) ================= -->
+
+<div class="product-card headset">
+<img src="images/jbl-headset.webp" alt="JBL Headset">
+<h3>JBL Headset</h3>
+<p>₦65,000</p>
+<button onclick="addToCart('JBL Headset',65000)">Add To Cart</button>
+</div>
+
+<div class="product-card headset">
+<img src="images/sony-headset.webp" alt="Sony Wireless Headset">
+<h3>Sony Wireless Headset</h3>
+<p>₦89,000</p>
+<button onclick="addToCart('Sony Wireless Headset',89000)">Add To Cart</button>
+</div>
+
+<div class="product-card headset">
+<img src="images/airpods-pro.webp" alt="AirPods Pro">
+<h3>Apple AirPods Pro</h3>
+<p>₦180,000</p>
+<button onclick="addToCart('AirPods Pro',180000)">Add To Cart</button>
+</div>
+
+<div class="product-card headset">
+<img src="images/beats-studio3.webp" alt="Beats Studio 3">
+<h3>Beats Studio 3</h3>
+<p>₦220,000</p>
+<button onclick="addToCart('Beats Studio 3',220000)">Add To Cart</button>
+</div>
+
+<div class="product-card headset">
+<img src="images/oraimo-headset.webp" alt="Oraimo Headset">
+<h3>Oraimo Headset</h3>
+<p>₦45,000</p>
+<button onclick="addToCart('Oraimo Headset',45000)">Add To Cart</button>
+</div>
+
+<!-- ================= SMART WATCHES (4) ================= -->
+
+<div class="product-card watch">
+<img src="images/apple-watch.webp" alt="Apple Watch Series 9">
+<h3>Apple Watch Series 9</h3>
+<p>₦450,000</p>
+<button onclick="addToCart('Apple Watch Series 9',450000)">Add To Cart</button>
+</div>
+
+<div class="product-card watch">
+<img src="images/samsung-watch.webp" alt="Samsung Galaxy Watch">
+<h3>Samsung Galaxy Watch</h3>
+<p>₦280,000</p>
+<button onclick="addToCart('Samsung Galaxy Watch',280000)">Add To Cart</button>
+</div>
+
+<div class="product-card watch">
+<img src="images/fitbit.webp" alt="Fitbit Smart Watch">
+<h3>Fitbit Smart Watch</h3>
+<p>₦190,000</p>
+<button onclick="addToCart('Fitbit Watch',190000)">Add To Cart</button>
+</div>
+
+<div class="product-card watch">
+<img src="images/amazfit.webp" alt="Amazfit GTR">
+<h3>Amazfit GTR</h3>
+<p>₦150,000</p>
+<button onclick="addToCart('Amazfit GTR',150000)">Add To Cart</button>
+</div>
+
+<!-- ================= CHARGERS (4) ================= -->
+
+<div class="product-card charger">
+<img src="images/fast-charger.webp" alt="Fast Charger">
+<h3>Fast Charger</h3>
+<p>₦12,000</p>
+<button onclick="addToCart('Fast Charger',12000)">Add To Cart</button>
+</div>
+
+<div class="product-card charger">
+<img src="images/typec-cable.webp" alt="Type C Cable">
+<h3>USB Type-C Cable</h3>
+<p>₦5,000</p>
+<button onclick="addToCart('USB Cable',5000)">Add To Cart</button>
+</div>
+
+<div class="product-card charger">
+<img src="images/wireless-charger.webp" alt="Wireless Charger">
+<h3>Wireless Charger</h3>
+<p>₦18,000</p>
+<button onclick="addToCart('Wireless Charger',18000)">Add To Cart</button>
+</div>
+
+<div class="product-card charger">
+<img src="images/multi-charger.webp" alt="Multi USB Charger">
+<h3>Multi USB Charger</h3>
+<p>₦22,000</p>
+<button onclick="addToCart('Multi USB Charger',22000)">Add To Cart</button>
+</div>
+
+<!-- ================= POWER BANKS (3) ================= -->
+
+<div class="product-card powerbank">
+<img src="images/powerbank-20000.webp" alt="20,000mAh Power Bank">
+<h3>20,000mAh Power Bank</h3>
+<p>₦25,000</p>
+<button onclick="addToCart('Power Bank',25000)">Add To Cart</button>
+</div>
+
+<div class="product-card powerbank">
+<img src="images/powerbank-30000.webp" alt="30,000mAh Power Bank">
+<h3>30,000mAh Power Bank</h3>
+<p>₦38,000</p>
+<button onclick="addToCart('Power Bank 30000mAh',38000)">Add To Cart</button>
+</div>
+
+<div class="product-card powerbank">
+<img src="images/mini-powerbank.webp" alt="Mini Power Bank">
+<h3>Mini Power Bank</h3>
+<p>₦15,000</p>
+<button onclick="addToCart('Mini Power Bank',15000)">Add To Cart</button>
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+<h2 class="section-title">
+Why Choose Agubestco?
+</h2>
+
+<div class="about-grid">
+
+<div>
+<h3>Premium Products</h3>
+<p>
+We provide genuine smartphones,
+laptops and accessories from trusted brands.
+</p>
+</div>
+
+<div>
+<h3>Fast Delivery</h3>
+<p>
+Nationwide delivery with quick processing
+and reliable customer support.
+</p>
+</div>
+
+<div>
+<h3>Secure Shopping</h3>
+<p>
+Safe ordering process and trusted payment methods.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2 class="section-title">
+Contact Us
+</h2>
+
+<div class="contact-box">
+
+<p>
+<i class="fa-solid fa-envelope"></i>
+agubestco@gmail.com
+</p>
+
+<p>
+<i class="fa-brands fa-whatsapp"></i>
+07034367556
+</p>
+
+<a
+href="https://wa.me/2347034367556"
+target="_blank"
+class="contact-btn">
+
+Chat On WhatsApp
+
+</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<h2>AGUBESTCO</h2>
+
+<p>
+Your Trusted Gadget Store
+</p>
+
+<p>
+© 2026 Agubestco. All Rights Reserved.
+</p>
+
+</footer>
+
+<!-- CART SIDEBAR -->
+
+<div id="cartSidebar" class="cart-sidebar">
+
+<div class="cart-header">
+
+<h3>Your Cart</h3>
+
+<button id="closeCart">
+×
+</button>
+
+</div>
+
+<div id="cartItems"></div>
+
+<div class="cart-footer">
+
+<h3 id="cartTotal">
+₦0
+</h3>
+
+<button id="checkoutBtn">
+Checkout On WhatsApp
+</button>
+
+</div>
+
+</div>
+
+<!-- WHATSAPP FLOAT -->
+
+<a
+href="https://wa.me/2347034367556"
+class="floating-whatsapp"
+target="_blank">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
